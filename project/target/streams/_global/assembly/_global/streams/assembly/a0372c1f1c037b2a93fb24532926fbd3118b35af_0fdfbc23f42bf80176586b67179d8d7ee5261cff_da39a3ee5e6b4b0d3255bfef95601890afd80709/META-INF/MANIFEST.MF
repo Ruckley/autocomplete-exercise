@@ -1,0 +1,28 @@
+Manifest-Version: 1.0
+Created-By: Apache Maven Bundle Plugin
+Build-Jdk-Spec: 11
+Automatic-Module-Name: org.jline.terminal.jansi
+Bnd-LastModified: 1611047714764
+Build-Jdk: 11.0.9
+Built-By: gnodet
+Bundle-Description: JLine
+Bundle-License: https://opensource.org/licenses/BSD-3-Clause
+Bundle-ManifestVersion: 2
+Bundle-Name: JLine JANSI Terminal
+Bundle-SymbolicName: org.jline.terminal-jansi
+Bundle-Version: 3.19.0
+Export-Package: org.jline.terminal.impl.jansi;uses:="org.fusesource.jans
+ i.internal";version="3.19.0",org.jline.terminal.impl.jansi.freebsd;uses
+ :="org.fusesource.jansi.internal,org.jline.terminal.impl.jansi";version
+ ="3.19.0",org.jline.terminal.impl.jansi.linux;uses:="org.fusesource.jan
+ si.internal,org.jline.terminal.impl.jansi";version="3.19.0",org.jline.t
+ erminal.impl.jansi.osx;uses:="org.fusesource.jansi.internal,org.jline.t
+ erminal.impl.jansi";version="3.19.0",org.jline.terminal.impl.jansi.sola
+ ris;uses:="org.fusesource.jansi.internal,org.jline.terminal.impl.jansi"
+ ;version="3.19.0",org.jline.terminal.impl.jansi.win;version="3.19.0"
+Fragment-Host: org.jline.terminal
+Import-Package: org.fusesource.jansi;version="[1.12,2)",org.fusesource.j
+ ansi.internal;version="[1.6,2)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-3.5.0.201709291849
+

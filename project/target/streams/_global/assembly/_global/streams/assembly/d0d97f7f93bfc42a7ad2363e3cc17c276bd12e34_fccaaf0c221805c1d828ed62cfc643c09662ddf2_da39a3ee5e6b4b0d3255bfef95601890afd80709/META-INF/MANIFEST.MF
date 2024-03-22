@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Specification-Title: file-tree-views
+Specification-Version: 2.1.12
+Specification-Vendor: com.swoval
+Implementation-Title: file-tree-views
+Implementation-Version: 2.1.12
+Implementation-Vendor: com.swoval
+Implementation-Vendor-Id: com.swoval
+Implementation-URL: https://github.com/swoval/swoval
+

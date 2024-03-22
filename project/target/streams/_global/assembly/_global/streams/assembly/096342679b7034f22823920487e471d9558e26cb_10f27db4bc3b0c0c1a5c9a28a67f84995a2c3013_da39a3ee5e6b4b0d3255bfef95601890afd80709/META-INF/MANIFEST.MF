@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: shaded-scalajson
+Implementation-Version: 1.0.0-M4
+Specification-Vendor: com.eed3si9n
+Specification-Title: shaded-scalajson
+Implementation-Vendor-Id: com.eed3si9n
+Specification-Version: 1.0.0-M4
+Implementation-URL: https://github.com/mdedetrich/scalajson
+Implementation-Vendor: com.eed3si9n
+

@@ -1,0 +1,32 @@
+Manifest-Version: 1.0
+Created-By: Apache Maven Bundle Plugin
+Build-Jdk-Spec: 11
+Automatic-Module-Name: org.jline.terminal.jna
+Bnd-LastModified: 1611047709133
+Build-Jdk: 11.0.9
+Built-By: gnodet
+Bundle-Description: JLine
+Bundle-License: https://opensource.org/licenses/BSD-3-Clause
+Bundle-ManifestVersion: 2
+Bundle-Name: JLine JNA Terminal
+Bundle-SymbolicName: org.jline.terminal-jna
+Bundle-Version: 3.19.0
+Export-Package: org.jline.terminal.impl.jna;uses:="org.jline.terminal,or
+ g.jline.terminal.impl,org.jline.terminal.spi";version="3.19.0",org.jlin
+ e.terminal.impl.jna.freebsd;uses:="com.sun.jna,org.jline.terminal,org.j
+ line.terminal.impl.jna";version="3.19.0",org.jline.terminal.impl.jna.li
+ nux;uses:="com.sun.jna,org.jline.terminal,org.jline.terminal.impl.jna";
+ version="3.19.0",org.jline.terminal.impl.jna.osx;uses:="com.sun.jna,org
+ .jline.terminal,org.jline.terminal.impl.jna";version="3.19.0",org.jline
+ .terminal.impl.jna.solaris;uses:="com.sun.jna,org.jline.terminal,org.jl
+ ine.terminal.impl.jna";version="3.19.0",org.jline.terminal.impl.jna.win
+ ;uses:="com.sun.jna,org.jline.terminal,org.jline.terminal.impl,org.jlin
+ e.utils";version="3.19.0"
+Fragment-Host: org.jline.terminal
+Import-Package: com.sun.jna;version="[5.3,6)",com.sun.jna.ptr;version="[
+ 5.3,6)",com.sun.jna.win32;version="[5.3,6)",org.jline.terminal;version=
+ "[3.19,4)",org.jline.terminal.impl;version="[3.19,4)",org.jline.termina
+ l.spi;version="[3.19,4)",org.jline.utils;version="[3.19,4)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-3.5.0.201709291849
+

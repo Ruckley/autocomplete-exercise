@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: zinc Compile
+Implementation-Version: 1.9.5
+Specification-Vendor: org.scala-sbt
+Specification-Title: zinc Compile
+Implementation-Vendor-Id: org.scala-sbt
+Specification-Version: 1.9.5
+Implementation-URL: https://github.com/sbt/zinc
+Implementation-Vendor: org.scala-sbt
+

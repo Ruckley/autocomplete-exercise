@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: Actions
+Implementation-Version: 1.9.8
+Specification-Vendor: org.scala-sbt
+Specification-Title: Actions
+Implementation-Vendor-Id: org.scala-sbt
+Specification-Version: 1.9.8
+Implementation-URL: https://github.com/sbt/sbt
+Implementation-Vendor: org.scala-sbt
+

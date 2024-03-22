@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: Command
+Implementation-Version: 1.9.8
+Specification-Vendor: org.scala-sbt
+Specification-Title: Command
+Implementation-Vendor-Id: org.scala-sbt
+Specification-Version: 1.9.8
+Implementation-URL: https://github.com/sbt/sbt
+Implementation-Vendor: org.scala-sbt
+Main-Class: sbt.internal.client.NetworkClient
+

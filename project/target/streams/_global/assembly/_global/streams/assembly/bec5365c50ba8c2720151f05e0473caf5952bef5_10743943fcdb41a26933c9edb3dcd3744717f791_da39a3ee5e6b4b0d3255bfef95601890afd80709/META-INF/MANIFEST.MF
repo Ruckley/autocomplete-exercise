@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: ipcsocket
+Implementation-Version: 1.6.2
+Specification-Vendor: sbt
+Specification-Title: ipcsocket
+Implementation-Vendor-Id: org.scala-sbt.ipcsocket
+Specification-Version: 1.6.2
+Implementation-URL: https://github.com/sbt/ipcsocket
+Implementation-Vendor: sbt
+

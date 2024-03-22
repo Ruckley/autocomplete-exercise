@@ -1,0 +1,23 @@
+Manifest-Version: 1.0
+Created-By: Apache Maven Bundle Plugin
+Build-Jdk-Spec: 11
+Automatic-Module-Name: org.jline.builtins
+Bnd-LastModified: 1611047737884
+Build-Jdk: 11.0.9
+Built-By: gnodet
+Bundle-Description: JLine
+Bundle-License: https://opensource.org/licenses/BSD-3-Clause
+Bundle-ManifestVersion: 2
+Bundle-Name: JLine Builtins
+Bundle-SymbolicName: org.jline.builtins
+Bundle-Version: 3.19.0
+Export-Package: org.jline.builtins;uses:="org.jline.keymap,org.jline.rea
+ der,org.jline.terminal,org.jline.utils";version="3.19.0"
+Import-Package: org.jline.keymap;version="[3.19,4)",org.jline.reader;ver
+ sion="[3.19,4)",org.jline.reader.impl;version="[3.19,4)",org.jline.read
+ er.impl.completer;version="[3.19,4)",org.jline.terminal;version="[3.19,
+ 4)",org.jline.terminal.impl;version="[3.19,4)",org.jline.utils;version=
+ "[3.19,4)",org.mozilla.universalchardet;resolution:=optional
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-3.5.0.201709291849
+

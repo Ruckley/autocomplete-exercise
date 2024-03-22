@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Implementation-Title: ivy
+Implementation-Version: 2.3.0-sbt-396a783bba347016e7fe30dacc60d355be60
+ 7fe2
+Specification-Vendor: org.scala-sbt.ivy
+Specification-Title: ivy
+Implementation-Vendor-Id: org.scala-sbt.ivy
+Specification-Version: 2.3.0-sbt-396a783bba347016e7fe30dacc60d355be607
+ fe2
+Implementation-URL: https://github.com/sbt/ivy
+Implementation-Vendor: org.scala-sbt.ivy
+

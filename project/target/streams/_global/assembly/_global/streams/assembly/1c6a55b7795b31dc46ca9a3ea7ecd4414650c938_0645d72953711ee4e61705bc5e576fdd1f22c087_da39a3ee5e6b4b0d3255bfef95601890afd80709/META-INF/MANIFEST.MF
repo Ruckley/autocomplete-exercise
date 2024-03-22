@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Created-By: Apache Maven Bundle Plugin
+Build-Jdk-Spec: 11
+Automatic-Module-Name: org.jline.reader
+Bnd-LastModified: 1611047721041
+Build-Jdk: 11.0.9
+Built-By: gnodet
+Bundle-Description: JLine
+Bundle-License: https://opensource.org/licenses/BSD-3-Clause
+Bundle-ManifestVersion: 2
+Bundle-Name: JLine Reader
+Bundle-SymbolicName: org.jline.reader
+Bundle-Version: 3.19.0
+Export-Package: org.jline.keymap;uses:="org.jline.terminal,org.jline.uti
+ ls";version="3.19.0",org.jline.reader;uses:="org.jline.keymap,org.jline
+ .terminal,org.jline.utils";version="3.19.0",org.jline.reader.impl;uses:
+ ="org.jline.keymap,org.jline.reader,org.jline.terminal,org.jline.utils"
+ ;version="3.19.0",org.jline.reader.impl.completer;uses:="org.jline.read
+ er,org.jline.terminal";version="3.19.0",org.jline.reader.impl.history;u
+ ses:="org.jline.reader";version="3.19.0"
+Import-Package: org.jline.terminal;version="[3.19,4)",org.jline.utils;ve
+ rsion="[3.19,4)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-3.5.0.201709291849
+
