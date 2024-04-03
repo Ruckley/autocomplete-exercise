@@ -1,6 +1,5 @@
-package optolookup
+package autocomplete.service
 
-import optolookup.AutocompleteJsonFormatter.formatSuggestions
 import org.scalatest.matchers.should.Matchers
 import org.scalatest.wordspec._
 

@@ -1,4 +1,4 @@
-package optolookup
+package autocomplete
 
 
 import org.scalatest.matchers.should.Matchers

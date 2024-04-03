@@ -1,4 +1,5 @@
-package optolookup
+package autocomplete.TernaryTree
+import autocomplete.TernaryTree
 
 import scala.annotation.tailrec
 
@@ -90,7 +91,7 @@ case object AutocompleteTernaryTree {
     val tree = cleanCorpus.foldLeft[Tree](EmptyNode) { (root, word) =>
       insertString(root, word)
     }
-    AutocompleteTernaryTree(tree, cleanCorpus.size)
+    TernaryTree.AutocompleteTernaryTree(tree, cleanCorpus.size)
   }
 
   // NOT TAIL RECURSIVE
